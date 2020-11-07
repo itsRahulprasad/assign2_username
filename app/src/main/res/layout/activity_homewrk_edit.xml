@@ -113,7 +113,7 @@
                     android:text="@string/sec2"
                     android:textColor="@color/black"
                     android:textFontWeight="900"
-
+                    android:textStyle="bold"
                     />
                 <EditText
                     android:layout_width="match_parent"
@@ -360,28 +360,29 @@
                 android:layout_marginTop="330dp"
                 >
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
                     android:layout_weight="1"
-                    >
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="submit"
                     android:background="@drawable/submitborder"
+                    android:layout_marginLeft="50dp"
+                    >
+                    <TextView
+                        android:text="Submit"
+                        android:textColor="#459C49"
+                        android:textSize="20sp"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
 
-                    />
+                        />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="cancel"
-                        />
+
                 </LinearLayout>
 
 
