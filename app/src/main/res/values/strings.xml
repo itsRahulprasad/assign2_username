@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">username</string>
+
+
+    <string name="my_text"><u> Homework </u></string>
+
+
+    <string name="sec">  <font color="#0179F3"> Homework : </font> <font color="#000000"> Review </font> </string>
+    <string name="sec1">  <font color="#0179F3"> Homework : </font> <font color="#000000"> View Answer </font> </string>
+    <string name="sec2">  <font color="#000000"> Title </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec3">  <font color="#000000"> Class </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec4">  <font color="#000000"> Section </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec5">  <font color="#000000"> Subject </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec6">  <font color="#000000"> Deadline </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec7">  <font color="#000000"> Published </font> <font color="#000000"> * </font> </string>
+    <string name="sec8">  <font color="#000000"> Full Marks </font> <font color="#FF0000"> * </font> </string>
+    <string name="sec9">  <font color="#000000"> Description </font> </string>
+
+
+    <!--    <string name="status_stop"><font fgcolor='#FF8E8E93'>Stopped</font></string>-->
+
 </resources>
+
+
+
