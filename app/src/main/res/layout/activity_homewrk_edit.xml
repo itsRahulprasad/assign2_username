@@ -79,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:background="@drawable/dashedborder">
+           >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -89,15 +89,28 @@
             android:layout_marginLeft="10dp"
             android:padding="3dp"
             android:textFontWeight="700"
+
           />
         </FrameLayout></LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/toolbar_first"
+    android:layout_marginRight="7dp"
+    android:layout_marginLeft="7dp"
+
+
+    />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardElevation="10dp"
+            app:cardElevation="15dp"
             app:cardCornerRadius="10dp"
             android:backgroundTint="@color/white"
+
+
             >
 
             <LinearLayout
@@ -106,14 +119,15 @@
                 android:padding="10dp"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
+
+
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/sec2"
                     android:textColor="@color/black"
-                    android:textFontWeight="900"
-                    android:textStyle="bold"
+
                     />
                 <EditText
                     android:layout_width="match_parent"
@@ -329,15 +343,22 @@
                 android:layout_weight="1"
                 />
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#F1EEEE"
-        android:text="browse"
         android:layout_weight="1"
-        android:backgroundTint="@color/toolbar_first"
-
-        />
+        android:padding="7dp"
+        >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="27dp"
+                    android:textColor="#FFFFFF"
+                    android:text="Browse files"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:padding="4dp"
+                    android:background="@drawable/gradient"
+                    android:gravity="center_horizontal" /></LinearLayout>
 
 
     <TextView
@@ -357,32 +378,53 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
-                android:layout_marginTop="330dp"
+                android:layout_marginTop="335dp"
+                android:layout_marginBottom="10dp"
+
                 >
                 <LinearLayout
-                    android:layout_width="250dp"
-                    android:layout_height="30dp"
+                    android:layout_width="150dp"
+                    android:layout_height="27dp"
                     android:layout_weight="1"
-                    android:background="@drawable/submitborder"
-                    android:layout_marginLeft="50dp"
+                  android:gravity="right"
+                    android:layout_marginRight="20dp"
+
                     >
                     <TextView
                         android:text="Submit"
-                        android:textColor="#459C49"
-                        android:textSize="20sp"
+                        android:textColor="#5CE44C"
+                        android:textSize="15sp"
+
+                        android:background="@drawable/submitborder"
                         android:layout_height="match_parent"
-                        android:layout_width="match_parent"
+                        android:layout_width="110dp"
                         android:textAlignment="center"
                         android:gravity="center_horizontal"
+                        android:padding="2dp"
+
 
                         />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
+                    android:layout_width="150dp"
+                    android:layout_height="27dp"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:text="Cancel"
+                        android:textColor="#CD0826"
+                        android:textSize="15sp"
+                        android:background="@drawable/cancel_border"
+                        android:layout_height="match_parent"
+                        android:layout_width="110dp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:padding="2dp"
 
+
+                        />
                 </LinearLayout>
 
 
@@ -390,9 +432,14 @@
 
 
 
+
         </androidx.cardview.widget.CardView>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
 
+            />
 
 </LinearLayout>
 
