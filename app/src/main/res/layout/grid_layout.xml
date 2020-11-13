@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    >
+    <GridLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="4"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+          android:layout_columnSpan="2"
+            android:layout_rowSpan="2"
+            android:src="@drawable/scholar_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="15sp"
+            android:textColor="#2DA138"
+            android:text="Present"
+            android:layout_columnWeight="2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="15sp"
+            android:textColor="@color/red"
+            android:text="Absent"
+            android:layout_columnWeight="2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="15sp"
+            android:textColor="@color/purple_500"
+            android:text="Late"
+            android:layout_columnWeight="2"
+            android:layout_columnSpan="1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="15sp"
+            android:textColor="#CA7A04"
+            android:text="Early discussion"
+            android:layout_columnWeight="2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="12sp"
+            android:textColor="@color/toolbar_first"
+            android:text="Select All"
+            android:layout_columnWeight="2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="12sp"
+            android:textColor="@color/toolbar_first"
+            android:text="Select All"
+            android:layout_columnWeight="2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="12sp"
+            android:textColor="@color/toolbar_first"
+            android:text="Select All"
+            android:layout_columnWeight="2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/toolbar_first"
+            android:text="Select All"
+            android:layout_columnWeight="2"
+            />
+<LinearLayout
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_columnSpan="2"
+
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="Students"
+            android:layout_columnSpan="2"
+            android:textStyle="bold"
+            />
+</LinearLayout>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#30AC35"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="@color/red"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="@color/purple_700"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#F1940A"
+            />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="Sushmita Singh"
+            android:layout_columnSpan="2"
+            />
+
+        </LinearLayout>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="Aparna Kumar"
+            android:layout_columnSpan="2"
+            />
+        </LinearLayout>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_columnWeight="1"
+            android:buttonTint="#2E2B27"
+            />
+
+
+    </GridLayout>
+
+
+</LinearLayout>
+
+
+

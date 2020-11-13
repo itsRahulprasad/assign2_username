@@ -3,10 +3,13 @@
 
 
     <string name="my_text"><u> Homework </u></string>
+    <string name="my_text1"><u> Attendance </u></string>
 
 
     <string name="sec">  <font color="#0179F3"> Homework : </font> <font color="#000000"> Review </font> </string>
     <string name="sec1">  <font color="#0179F3"> Homework : </font> <font color="#000000"> View Answer </font> </string>
+    <string name="sec11">  <font color="#0179F3"> Attendance : </font> <font color="#000000"> Student Record Attendance </font> </string>
+
     <string name="sec2">  <font color="#000000"> Title </font> <font color="#FF0000"> * </font> </string>
     <string name="sec3">  <font color="#000000"> Class </font> <font color="#FF0000"> * </font> </string>
     <string name="sec4">  <font color="#000000"> Section </font> <font color="#FF0000"> * </font> </string>
